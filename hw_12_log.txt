@@ -1,0 +1,64 @@
+/usr/bin/python3.7 /home/andrey/Универ/сети/hw_12.py
+Simulation step 1 of router 33.108.159.179 table:
+Source IP            Destination IP       Next Hop         Metric
+33.108.159.179       18.136.225.78        18.136.225.78         1
+33.108.159.179       155.20.103.24        155.20.103.24         1
+
+Simulation step 1 of router 18.136.225.78 table:
+Source IP            Destination IP       Next Hop         Metric
+18.136.225.78        33.108.159.179       33.108.159.179        1
+18.136.225.78        155.20.103.24        33.108.159.179        2
+
+Simulation step 1 of router 155.20.103.24 table:
+Source IP            Destination IP       Next Hop         Metric
+155.20.103.24        33.108.159.179       33.108.159.179        1
+155.20.103.24        18.136.225.78        33.108.159.179        2
+
+Simulation step 2 of router 33.108.159.179 table:
+Source IP            Destination IP       Next Hop         Metric
+33.108.159.179       18.136.225.78        18.136.225.78         1
+33.108.159.179       155.20.103.24        155.20.103.24         1
+
+Simulation step 2 of router 18.136.225.78 table:
+Source IP            Destination IP       Next Hop         Metric
+18.136.225.78        33.108.159.179       33.108.159.179        1
+18.136.225.78        155.20.103.24        33.108.159.179        2
+
+Simulation step 2 of router 155.20.103.24 table:
+Source IP            Destination IP       Next Hop         Metric
+155.20.103.24        33.108.159.179       33.108.159.179        1
+155.20.103.24        18.136.225.78        33.108.159.179        2
+
+Simulation step 3 of router 33.108.159.179 table:
+Source IP            Destination IP       Next Hop         Metric
+33.108.159.179       18.136.225.78        18.136.225.78         1
+33.108.159.179       155.20.103.24        155.20.103.24         1
+
+Simulation step 3 of router 18.136.225.78 table:
+Source IP            Destination IP       Next Hop         Metric
+18.136.225.78        33.108.159.179       33.108.159.179        1
+18.136.225.78        155.20.103.24        33.108.159.179        2
+
+Simulation step 3 of router 155.20.103.24 table:
+Source IP            Destination IP       Next Hop         Metric
+155.20.103.24        33.108.159.179       33.108.159.179        1
+155.20.103.24        18.136.225.78        33.108.159.179        2
+
+Final state of router 33.108.159.179 table:
+Source IP            Destination IP       Next Hop         Metric
+33.108.159.179       18.136.225.78        18.136.225.78         1
+33.108.159.179       155.20.103.24        155.20.103.24         1
+
+Final state of router 18.136.225.78 table:
+Source IP            Destination IP       Next Hop         Metric
+18.136.225.78        33.108.159.179       33.108.159.179        1
+18.136.225.78        155.20.103.24        33.108.159.179        2
+
+Final state of router 155.20.103.24 table:
+Source IP            Destination IP       Next Hop         Metric
+155.20.103.24        33.108.159.179       33.108.159.179        1
+155.20.103.24        18.136.225.78        33.108.159.179        2
+
+
+Process finished with exit code 0
+
